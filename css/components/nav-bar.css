@@ -22,25 +22,18 @@
 
 .nav__notification
 {
-    background-color: tomato;
-    width: 27px;
-    height: 27px;
-    border-radius: 50%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-    font-weight: 600;
-
     position: absolute;
+
     left: 15px;
     bottom: 15px;
 }
 
 .nav__red-dot
 {
+    position: absolute;
+    left: 27px;
+    bottom: 27px;
+
     background-color: tomato;
     width: 5px;
     height: 5px;
@@ -49,8 +42,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    position: absolute;
-    left: 27px;
-    bottom: 27px;
 }
