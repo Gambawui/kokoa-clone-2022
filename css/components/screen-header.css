@@ -34,7 +34,17 @@
     height: 5px;
     border-radius: 50%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
+.screen-more-reddot
+{
+    position: absolute;
+    left: 118px;
+    bottom: 18px;
+
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+

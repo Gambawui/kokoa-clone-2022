@@ -1,0 +1,41 @@
+.icon-row
+{
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.icon-row__icon
+{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-row__icon span
+{
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    width: 60%;
+}
+
+.icon-row__icon i
+{
+    font-size: 35px;
+}
+
+.icon-row__red-dot
+{
+    position: absolute;
+    left: 195px;
+    bottom: 60px;
+
+    background-color: tomato;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
