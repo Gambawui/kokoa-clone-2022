@@ -2,8 +2,6 @@
 {
     display: flex;
     justify-content: space-between;
-
-    position: relative;
 }
 
 .icon-row__icon
@@ -28,11 +26,16 @@
     font-size: 35px;
 }
 
+.icon-row__icon:nth-child(2) i
+{
+    position: relative;
+}
+
 .icon-row__red-dot
 {
     position: absolute;
-    left: 195px;
-    bottom: 60px;
+    left: 40px;
+    bottom: 35px;
 
     background-color: tomato;
     width: 7px;
