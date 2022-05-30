@@ -48,3 +48,20 @@
     border-radius: 50%;
 }
 
+@keyframes rotateCog
+{
+    0%
+    {
+        transform: none;
+    }
+
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover
+{
+    animation: rotateCog 2s linear infinite;
+}
